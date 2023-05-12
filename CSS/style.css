@@ -1,0 +1,94 @@
+.logo {
+  font-family: "Raleway";
+  color: #2196f3;
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+}
+.menu-links {
+  color: black;
+  justify-content: space-between;
+}
+.menu-links:hover {
+  color: #2196f3;
+}
+.contact-mail {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+}
+.contact-mail:hover {
+  color: #2196f3;
+}
+.contact-phone {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+}
+.contact-phone:hover {
+  color: #2196f3;
+}
+h1 {
+  color: black;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+}
+button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+button {
+  cursor: pointer;
+}
+h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.lorem-ipsum {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.job-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: black;
+}
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.usluga {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
