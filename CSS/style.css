@@ -203,16 +203,17 @@ h4 {
 }
 .logo1 {
   color: #2196f3;
+  margin: 0;
 }
 .logo2 {
   color: #fff;
   text-decoration: none;
+  margin: 0;
 }
 .logo2:hover {
   color: #2196f3;
 }
 .contact-mail-footer {
-  font-family: Roboto;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.71px;
@@ -221,7 +222,6 @@ h4 {
   padding-top: 9px;
 }
 .contact-phone-footer {
-  font-family: Roboto;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.71px;
@@ -230,11 +230,18 @@ h4 {
   padding-top: 9px;
 }
 .address-footer {
-  font-family: Roboto;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: #fff;
   padding-top: 20px;
+}
+.contact-list {
+  list-style: none;
+  display: block;
+  align-content: flex-start;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 9px;
 }
