@@ -95,7 +95,6 @@
   border-radius: 4px;
   border: none;
   letter-spacing: 0.06em;
-  display: flex;
   cursor: pointer;
 }
 h4 {
@@ -244,4 +243,33 @@ h4 {
   margin: 0 auto;
   padding: 0;
   padding-top: 9px;
+}
+/*PORTFOLIO*/
+.all-buttons {
+}
+.portfolio-buttons {
+  background: #f5f4fa;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.62;
+  font-size: 16px;
+  color: #212121;
+  border-style: none;
+  padding: 6px 22px;
+  margin: 0px 4px;
+  cursor: pointer;
+}
+.portfolio-buttons:hover {
+  background: #2196f3;
+  color: #fff;
+}
+.portfolio-pics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
 }
