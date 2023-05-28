@@ -245,7 +245,15 @@ h4 {
   padding-top: 9px;
 }
 /*PORTFOLIO*/
+.border {
+  border-bottom: 1px solid;
+  border-color: #ececec;
+}
 .all-buttons {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 .portfolio-buttons {
   background: #f5f4fa;
@@ -268,8 +276,18 @@ h4 {
   color: #fff;
 }
 .portfolio-pics {
+  margin: 0;
+  padding-bottom: 94px;
+}
+.images {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin: 0 auto;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  flex-basis: calc((100% - 30px) / 3);
+}
+.image {
+  border: solid 1px;
+  border-color: #eee;
 }
