@@ -11,6 +11,7 @@
 .head-contact {
   display: flex;
   justify-content: flex-end;
+  gap: 50px;
 }
 .menu {
   flex-direction: row;
@@ -31,6 +32,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.logo-final {
+  justify-content: space-between;
+}
 .logo {
   font-family: "Raleway";
   color: black;
@@ -39,7 +43,6 @@
   font-size: 26px;
   text-decoration: none;
 }
-
 .logo:hover {
   color: #2196f3;
 }
